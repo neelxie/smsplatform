@@ -37,13 +37,11 @@ body{
 }
 .footer{
     display: flex;
-    /* align-content: space-between; */
     justify-content: space-between;
 }
 .header{
     display: grid;
     gap: 1.1rem;
-    /* grid-auto-flow: column; */
     grid-template-columns: repeat(5, 1fr);
     padding-bottom: 1rem;
 }
@@ -65,16 +63,15 @@ body{
 
 .sidebar{
     display: grid;
-    grid-auto-flow: row;
-    row-gap: 3px;
-    align-content: center;
     color: #ffffff;
+    grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem auto;
+    row-gap: 5px;
 }
 .sidebar-item{
     height: 1.5rem;
     padding-left: 1rem;
     background-color: #00a4f3;
-    align-self: center;
+    padding-bottom: -3px;
 }
 
 .footerlogo{
@@ -116,4 +113,22 @@ body{
     display: grid;
     grid-auto-flow: row;
     row-gap: 2px;
+}
+.inputSelect{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 15%;
+}
+
+input, select{
+    height: 2rem;
+    background: #e7e6e6;
+    border: 1px solid grey;
+}
+
+textarea{
+    border: 1px solid grey;
+}
+.second{
+
 }
