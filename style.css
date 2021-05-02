@@ -1,5 +1,5 @@
 body{
-    background: #3064b7;
+    
     color: white;
     padding: 0;
     margin: 0;
@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 3px 1rem;
+    background: #3064b7;
 }
 
 .topleft{
@@ -50,8 +51,12 @@ body{
 .card{
     background:#00a4f3;
     color: #ffffff;
-    height: 23vh;
+    height: 20vh;
     border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 20px;
+    line-height: 1.5rem;
+    display: grid;
 }
 .lower-section, .active{
     background: #d8d8d8;
@@ -132,6 +137,7 @@ textarea{
     border: 1px solid grey;
     resize: none;
     height: 15vh;
+    background: #e7e6e6;
 }
 .forth button{
     background: #00a4f3;
@@ -141,4 +147,18 @@ textarea{
     width: 60%;
     margin: 0 auto;
 
+}
+
+.toleft{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+.card-down{
+    padding-top: 1rem;
+    font-size: 25px;
 }
