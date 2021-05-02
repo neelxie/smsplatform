@@ -107,6 +107,7 @@ body{
 .lower-section{
     display: grid;
     grid-template-rows: 1fr 1fr auto 1fr;
+    row-gap: 1rem;
     padding: 1rem;
 }
 
@@ -129,7 +130,15 @@ input, select{
 
 textarea{
     border: 1px solid grey;
+    resize: none;
+    height: 15vh;
 }
-.second{
+.forth button{
+    background: #00a4f3;
+    color: white;
+    height: 2rem;
+    border: none;
+    width: 60%;
+    margin: 0 auto;
 
 }
