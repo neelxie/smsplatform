@@ -162,3 +162,9 @@ textarea{
     padding-top: 1rem;
     font-size: 25px;
 }
+
+.ofThree{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
