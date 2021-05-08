@@ -45,13 +45,13 @@
                 <div class="main-inner">
                     <div class="sidebar">
                         <div class="sidebar-item active">Send SMS</div>
-                        <div class="sidebar-item">Contact Management</div>
-                        <div class="sidebar-item">Outbox</div>
-                        <div class="sidebar-item">Inbox</div>
-                        <div class="sidebar-item">Scheduled Messages</div>
-                        <div class="sidebar-item">Saved Message</div>
-                        <div class="sidebar-item">Upload Message</div>
-                        <div class="sidebar-item">Payments (Top-up)</div>
+                        <div class="sidebar-item marg">Contact Management</div>
+                        <div class="sidebar-item marg">Outbox</div>
+                        <div class="sidebar-item marg">Inbox</div>
+                        <div class="sidebar-item marg">Scheduled Messages</div>
+                        <div class="sidebar-item marg">Saved Message</div>
+                        <div class="sidebar-item marg">Upload Message</div>
+                        <div class="sidebar-item marg">Payments (Top-up)</div>
                     </div>
                     <div class="main-section">
                         <div class="top-section">
@@ -76,22 +76,44 @@
                             </div>
                             <div class="second">
                                 <div class="input-text">
-                                    <div class="toleft ofThree">
-                                        <div>Contacts(E.g 2567xx xxxxxx)</div>
-                                        <div>
-                                            <input type="radio" id="male" name="gender" value="male">
-                                            <label for="male">Male</label>
-                                            <input type="radio" id="female" name="gender" value="female">
-                                            <label for="female">Female</label>
+                                    <div class=" ofThree">
+                                        <div class="toleft">Contacts(E.g 2567xx xxxxxx)</div>
+                                        <div class="divide">
+                                            <div class="formatCenter">
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                            </div>
+                                            <div class="toRight">
+                                                <div class="input-text">
+                                                    <div class="toleft ser">Select Telcoms to send to
+                                                    </div>
+                                                </div>
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                                <div class="toleft">
+                                                    <input type="radio" id="male" name="gender" value="male">
+                                                    <label for="male">Male</label>
+                                                </div>
+                                                
+                                            </div>
                                         </div>
-                                        <div>
-                                            <input type="radio" id="male" name="gender" value="male">
-                                            <label for="male">Male</label>
-                                            <input type="radio" id="female" name="gender" value="female">
-                                            <label for="female">Female</label>
-                                            <input type="radio" id="male" name="gender" value="male">
-                                            <label for="male">Male</label>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <input type="text" name="sender id" id="">
@@ -102,10 +124,16 @@
                                         <div class="toleft">Message (1 Message 160 Characters but MTN includes :STP*196#, 2 Messages 310 Characters)
                                         </div>
                                         <div class="toRight">
-                                            <input type="radio" id="schedule" class="boxRadio" name="schedule" value="schedule">
-                                            <label for="male">Schedule this message</label>
-                                            <input type="radio" id="save" class="boxRadio" name="save" value="save">
-                                            <label for="female">Save as template</label>
+                                            <div class="toleft">
+                                                <input type="radio" id="schedule" class="boxRadi" name="schedule" value="schedule">
+                                                <label for="male">Schedule this message</label>
+                                            </div>
+
+                                            <div class="toleft">
+                                                <input type="radio" id="save" class="boxRadi" name="save" value="save">
+                                                <label for="female">Save as template</label>
+                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

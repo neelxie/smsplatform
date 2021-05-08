@@ -39,6 +39,7 @@ body{
 .footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header{
     display: grid;
@@ -76,7 +77,8 @@ body{
     height: 5vh;
     padding-left: 1rem;
     background-color: #00a4f3;
-    padding-bottom: -3px;
+    display: grid;
+    align-items: center;
 }
 
 .footerlogo{
@@ -106,7 +108,7 @@ body{
 }
 
 .sub2, .sub3{
-    color: #f1f1f1;
+    color: #e7e6e6;
 }
 .lower-section{
     display: grid;
@@ -151,6 +153,9 @@ textarea{
 .toleft{
     font-size: 12px;
     font-weight: bold;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
 }
 
 .rightAlign{
@@ -164,8 +169,15 @@ textarea{
 
 .ofThree{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+}
+
+.divide{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 3rem;
 }
 
 .boxRadio {
@@ -186,4 +198,26 @@ textarea{
     grid-auto-flow: column;
     align-items: center;
     column-gap: 2rem;
+}
+
+.placeCenter{
+    place-self: center;
+}
+
+.tolefter{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.formatCenter{
+    display: grid;
+    grid-auto-flow: column;
+}
+.ser{
+    width: 15rem;
+}
+
+.marg{
+    margin-right: 1rem;
 }
