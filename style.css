@@ -134,7 +134,7 @@ body{
     grid-template-rows: 1fr 1fr auto 1fr;
     row-gap: 1rem;
     padding: 1rem;
-    max-height: 60vh;
+    min-height: 50vh;
 }
 
 .first, .second, .third, .forth{
