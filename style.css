@@ -301,3 +301,18 @@ textarea {
     width: 12vw;
     height: 2rem;
 }
+
+.tableHead{
+  background-color: #7f7f7f;
+}
+
+.tableHead, .tableChild{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.rem-row{
+  display: grid;
+  grid-auto-flow: row;
+  min-height: 50vh;
+}
