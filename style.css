@@ -302,17 +302,31 @@ textarea {
     height: 2rem;
 }
 
+.myTable{
+  display: table;
+}
 .tableHead{
   background-color: #7f7f7f;
 }
 
 .tableHead, .tableChild{
-  display: grid;
-  grid-auto-flow: column;
+  display: table-row;
+  /* grid-auto-flow: column; */
 }
 
+.tableHead div, .tableChild div{
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  height: 2rem;
+  display: table-cell;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
 .rem-row{
   display: grid;
   grid-auto-flow: row;
   min-height: 50vh;
+  background: #d8d8d8;
+  color: #fff;
+  padding: .4rem;
 }
