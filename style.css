@@ -126,10 +126,13 @@ body {
   padding-left: 1rem;
   font-weight: bold;
 }
+.sub1{
+  color: #fff;
+}
 
 .sub2,
 .sub3 {
-  color: #e7e6e6;
+  color: #cecccc;
 }
 .lower-section {
   display: grid;
@@ -258,9 +261,7 @@ textarea {
   display: flex;
 }
 .searcha .searchTerm {
-  width: 100%;
-  
-  /* border: 1px solid grey; */
+  min-width: 100%;
   border-right: none;
   outline: none;
   color: #9dbfaf;
@@ -281,61 +282,107 @@ textarea {
   font-size: 20px;
 }
 
-.seka{
-    display: flex;
-    justify-content: space-between;
+.seka {
+  display: flex;
+  justify-content: space-between;
 }
 
-.searches{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: .8rem;
+.searches {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0.8rem;
 }
 
-.searchB button{
-    background: #00a4f3;
-    color: #fff;
-    outline: none;
-    border: none;
-    width: 12vw;
-    height: 2rem;
+.searchB button {
+  background: #00a4f3;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 12vw;
+  height: 2rem;
 }
 
-.myTable{
+.myTable {
   display: table;
 }
-.tableHead{
+.tableHead {
   background-color: #7f7f7f;
 }
 
-.tableHead, .tableChild{
+.tableHead,
+.tableChild {
   display: table-row;
-  /* grid-auto-flow: column; */
 }
 
-.tableHead div, .tableChild div{
+.tableHead div,
+.tableChild div {
   border: 1px solid #f1f1f1;
   text-align: center;
   height: 2rem;
   display: table-cell;
-  margin-top: 3px;
-  margin-bottom: 0;
+  vertical-align: middle;
 }
-.rem-row{
+.rem-row {
   display: grid;
   grid-auto-flow: row;
-  /* min-height: 50vh; */
   background: #d8d8d8;
   color: #fff;
-  padding: .5rem;
-  row-gap: .5rem;
+  padding: 0.5rem;
+  row-gap: 0.5rem;
 }
 
-.trashy{
+.trashy {
   color: red;
 }
 
-.write{
+.write {
   color: #000;
+}
+
+.reload{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  border-radius: 3px;
+  margin-bottom: -1px;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination a {
+  background-color: #3064b7;
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #3064b7;
+  color: #000;
+  border: 1px solid #3064b7;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  color: #3064b7;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.height{
+  height: 34vh;
 }
