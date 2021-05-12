@@ -395,3 +395,12 @@ textarea {
 .uza{
   color: green;
 }
+
+.viewContacts button{
+  background-color: #bfbfbf;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 12vw;
+  height: 2rem;
+}
