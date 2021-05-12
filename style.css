@@ -325,8 +325,17 @@ textarea {
 .rem-row{
   display: grid;
   grid-auto-flow: row;
-  min-height: 50vh;
+  /* min-height: 50vh; */
   background: #d8d8d8;
   color: #fff;
-  padding: .4rem;
+  padding: .5rem;
+  row-gap: .5rem;
+}
+
+.trashy{
+  color: red;
+}
+
+.write{
+  color: #000;
 }
