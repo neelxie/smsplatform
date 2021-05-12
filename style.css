@@ -294,6 +294,11 @@ textarea {
   column-gap: 0.8rem;
 }
 
+.othsearches {
+  display: grid;
+  grid-auto-flow: column;
+  width: 35rem;
+}
 .searchB button {
   background: #00a4f3;
   color: #fff;
@@ -385,4 +390,8 @@ textarea {
 
 .height{
   height: 34vh;
+}
+
+.uza{
+  color: green;
 }
