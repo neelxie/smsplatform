@@ -432,3 +432,45 @@ textarea {
 .center{
   align-items: center;
 }
+
+.search-icons {
+  position:relative;
+  padding:0 0 0 20px;
+  /* margin:0 20px; */
+  background:#ddd;
+  direction: rtl;
+  text-align: left;
+
+}
+
+.icon {
+  position:absolute;
+  bottom:2px;
+  right:5px;
+  width:24px;
+  height:24px;
+  color: #7f7f7f;
+  top: 6px;
+}
+
+.search-field {
+  height:2rem;
+  margin:0;
+  padding-right: 30px;
+  width: 100%;
+
+}
+
+.nailedit{
+  display: grid;
+  grid-auto-flow: column;
+  gap: .3rem;
+  width: 70%;
+}
+.ina-search{
+  display: grid;
+  grid-auto-flow: column;
+}
+.fiti{
+  height: inherit;
+}
