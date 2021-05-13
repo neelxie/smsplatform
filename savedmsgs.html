@@ -36,7 +36,11 @@
         <div class="main-outer">
           <div class="header">
             <div class="card">
-              <div class="card-top">Contacts</div>
+              <div class="card-top">Schedules</div>
+              <div class="card-down rightAlign">1</div>
+            </div>
+            <div class="card">
+              <div class="card-top">Sender IDs</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
@@ -44,15 +48,11 @@
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Networks</div>
+              <div class="card-top">Active Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Available Credit</div>
-              <div class="card-down rightAlign">1</div>
-            </div>
-            <div class="card">
-              <div class="card-top">Available Sms</div>
+              <div class="card-top">Inactive Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
           </div>
@@ -68,10 +68,10 @@
               <div class="sidebar-item marg">
                 <a href="inbox.html">Inbox</a>
               </div>
-              <div class="sidebar-item marg">
+              <div class="sidebar-item active">
                 <a href="scheduledmsgs.html">Scheduled Messages</a>
               </div>
-              <div class="sidebar-item active">
+              <div class="sidebar-item marg">
                 <a href="savedmsgs.html">Saved Message</a>
               </div>
               <div class="sidebar-item marg">
@@ -83,61 +83,76 @@
             </div>
             <div class="main-section">
               <div class="top-section">
-                <div class="main-heading">Saved Messages</div>
+                <div class="main-heading">Scheduled Messages</div>
                 <div class="main-otha">
-                  <div class="sub1">
-                    <a href="contact.html">Contacts Book|</a>
-                  </div>
                   <div class="sub2">
-                    &nbsp;<a href="groups.html">Groups |</a>
+                    <a href="./sent.html">Sent Messages|</a>
                   </div>
                   <div class="sub3">
-                    &nbsp;<a href="upload.html">Upload Contacts</a>
+                    &nbsp;<a href="./dailysmsreports.html"
+                      >Daily SMS Reports |</a
+                    >
+                  </div>
+                  <div class="sub1">
+                    &nbsp;<a href="./downloadreports.html">Download Report</a>
                   </div>
                 </div>
               </div>
               <div class="rem-row">
-                <div class="seka">
-                  <div class="searches">
+                <div class="">
+                  <div class="arches">
                     <div class="inputSelect">
-                      <select name="" id="">
-                        <option disabled selected>Filter by Network</option>
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Group</option>
                       </select>
                     </div>
                     <div class="inputSelect">
-                      <select name="" id="">
-                        <option disabled selected>Filter by Group</option>
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Period</option>
                       </select>
                     </div>
-                    <div class="searcha">
-                      <div class="search">
+                    <div class="inputSelect">
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Time</option>
+                      </select>
+                    </div>
+                    <div class="inputSelect">
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Status</option>
+                      </select>
+                    </div>
+                    <div class="ina-search">
+                      <div class="search-icons">
                         <input
                           type="text"
-                          class="searchTerm"
-                          placeholder="Search by Name"
+                          class="search-field"
+                          placeholder="Search by Sender ID"
                         />
-                        <button type="submit" class="searchButton">
-                          <i class="fa fa-search"></i>
-                        </button>
-                        <img src="./reload.png" />
+                        <i class="fa fa-search icon"></i>
                       </div>
+                      <img src="./reload.png" class="fiti" />
                     </div>
-                  </div>
-                  <div class="searchB">
-                    <button type="submit">ADD</button>
                   </div>
                 </div>
                 <div class="myTable">
                   <div class="tableHead">
                     <div class="emu">Message</div>
-                    <div class="biri">Date Saved</div>
+                    <div class="biri">Sender ID</div>
+                    <div class="satu">Groups</div>
+                    <div class="nya">Recepients</div>
+                    <div class="satu">Period</div>
+                    <div class="satu">Time</div>
                     <div class="satu">Status</div>
                     <div class="tano">Action</div>
                   </div>
                   <div class="tableChild">
                     <div class="emu"></div>
                     <div class="biri"></div>
+                    <div class="satu"></div>
                     <div class="nya"></div>
+                    <div class="satu"></div>
+                    <div class="satu"></div>
+                    <div class="satu"></div>
                     <div class="tano">
                       <i
                         class="fa fa-pencil-square-o write"
