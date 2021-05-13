@@ -348,6 +348,7 @@ textarea {
 
 .trashy {
   color: red;
+  height: 2rem;
 }
 
 .write {
@@ -464,13 +465,23 @@ textarea {
 .nailedit{
   display: grid;
   grid-auto-flow: column;
-  gap: .3rem;
+  gap: 1rem;
   width: 70%;
 }
 .ina-search{
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: auto 2.5rem;
 }
 .fiti{
-  height: inherit;
+  height: 2rem;
+}
+
+.tpercent{
+  width: 20%;
+}
+
+.selectH{
+  height: 2.26rem;
+  padding-left: 2rem;
 }
