@@ -36,15 +36,15 @@
         <div class="main-outer">
           <div class="header">
             <div class="card">
-              <div class="card-top">Contacts</div>
+              <div class="card-top">Message Templates</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Groups</div>
+              <div class="card-top">Active Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Networks</div>
+              <div class="card-top">Inactive Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
@@ -52,14 +52,14 @@
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Available Sms</div>
+              <div class="card-top">Available SMS</div>
               <div class="card-down rightAlign">1</div>
             </div>
           </div>
           <div class="main-inner">
             <div class="sidebar">
               <div class="sidebar-item marg"><a href="index.html"> SMS</a></div>
-              <div class="sidebar-item active">
+              <div class="sidebar-item marg">
                 <a href="contact.html">Contact Management</a>
               </div>
               <div class="sidebar-item marg">
@@ -71,7 +71,7 @@
               <div class="sidebar-item marg">
                 <a href="scheduledmsgs.html">Scheduled Messages</a>
               </div>
-              <div class="sidebar-item marg">
+              <div class="sidebar-item active">
                 <a href="savedmsgs.html">Saved Message</a>
               </div>
               <div class="sidebar-item marg">
@@ -83,67 +83,56 @@
             </div>
             <div class="main-section">
               <div class="top-section">
-                <div class="main-heading">Contacts Book</div>
+                <div class="main-heading">Message Templates</div>
                 <div class="main-otha">
+                  <div class="sub3">
+                    <a href="./savedmsgs.html">Saved Messages|</a>
+                  </div>
                   <div class="sub1">
-                    <a href="contact.html">Contacts Book|</a>
+                    &nbsp;<a href="./templates.html">Message Template |</a>
                   </div>
                   <div class="sub2">
-                    &nbsp;<a href="groups.html">Groups |</a>
-                  </div>
-                  <div class="sub3">
-                    &nbsp;<a href="upload.html">Upload Contacts</a>
+                    &nbsp;<a href="./uploadMessage.html">Upload Message</a>
                   </div>
                 </div>
               </div>
               <div class="rem-row">
-                <div class="seka">
-                  <div class="searches">
+                <div class="">
+                  <div class="arches">
                     <div class="inputSelect">
-                      <select name="" id="">
-                        <option disabled selected>Filter by Network</option>
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Date</option>
                       </select>
                     </div>
                     <div class="inputSelect">
-                      <select name="" id="">
-                        <option disabled selected>Filter by Group</option>
+                      <select name="" id="" class="selectH">
+                        <option disabled selected>Status</option>
                       </select>
                     </div>
-                    <div class="searcha">
-                      <div class="search">
+                    <div class="ina-search">
+                      <div class="search-icons">
                         <input
                           type="text"
-                          class="searchTerm"
-                          placeholder="Search by Name"
+                          class="search-field"
+                          placeholder="Search by Sender ID"
                         />
-                        <button type="submit" class="searchButton">
-                          <i class="fa fa-search"></i>
-                        </button>
-                        <!-- <i class="fa fa-refresh reload" aria-hidden="true"></i> -->
-                        <!-- <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>
-                        <i class="fa fa-trash-o trashy" aria-hidden="true"></i>
-                        <i class="fa fa-refresh" aria-hidden="true"></i> -->
+                        <i class="fa fa-search icon"></i>
                       </div>
+                      <img src="./reload.png" class="fiti" />
                     </div>
-                  </div>
-                  <div class="searchB">
-                    <button type="submit">ADD</button>
                   </div>
                 </div>
                 <div class="myTable">
                   <div class="tableHead">
-                    <div class="emu">Phone Number</div>
-                    <div class="biri">Network</div>
-                    <div class="satu">Name</div>
-                    <div class="nya">Group</div>
+                    <div class="emu">Message</div>
+                    <div class="satu">Date Saved</div>
+                    <div class="satu">Status</div>
                     <div class="tano">Action</div>
                   </div>
                   <div class="tableChild">
                     <div class="emu"></div>
                     <div class="biri"></div>
                     <div class="satu"></div>
-                    <div class="nya"></div>
                     <div class="tano">
                       <i
                         class="fa fa-pencil-square-o write"
