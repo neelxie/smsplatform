@@ -413,3 +413,22 @@ textarea {
   width: 12vw;
   height: 2rem;
 }
+.altaa{
+  display: grid;
+  width: 80%;
+  grid-auto-flow: column;
+  column-gap: .3rem;
+  align-items: center;
+}
+.pile{
+  display: grid;
+  row-gap: .3rem;
+  color: #000;
+}
+.pile input{
+  padding-left: .3rem;
+}
+
+.center{
+  align-items: center;
+}
