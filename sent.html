@@ -36,19 +36,19 @@
         <div class="main-outer">
           <div class="header">
             <div class="card">
-              <div class="card-top">Contacts</div>
+              <div class="card-top">Sender IDs</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Groups</div>
+              <div class="card-top">Recipients</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Networks</div>
+              <div class="card-top">Used Credits</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Available Credit</div>
+              <div class="card-top">Available Credits</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
@@ -59,11 +59,11 @@
           <div class="main-inner">
             <div class="sidebar">
               <div class="sidebar-item marg"><a href="index.html"> SMS</a></div>
-              <div class="sidebar-item active">
+              <div class="sidebar-item marg">
                 <a href="contact.html">Contact Management</a>
               </div>
-              <div class="sidebar-item marg">
-                <a href="outbox.html">Outbox</a>
+              <div class="sidebar-item active">
+                <a href="sent.html">Outbox</a>
               </div>
               <div class="sidebar-item marg">
                 <a href="inbox.html">Inbox</a>
@@ -83,7 +83,7 @@
             </div>
             <div class="main-section">
               <div class="top-section">
-                <div class="main-heading">Contacts Book</div>
+                <div class="main-heading">Sent Messages</div>
                 <div class="main-otha">
                   <div class="sub1">
                     <a href="contact.html">Contacts Book|</a>
@@ -99,11 +99,7 @@
               <div class="rem-row">
                 <div class="seka">
                   <div class="searches">
-                    <div class="inputSelect">
-                      <select name="" id="">
-                        <option disabled selected>Filter by Network</option>
-                      </select>
-                    </div>
+                    <input type="date" name="date" id="dateinput" placeholder="Filter by Date Range">
                     <div class="inputSelect">
                       <select name="" id="">
                         <option disabled selected>Filter by Group</option>
@@ -119,9 +115,9 @@
                         <button type="submit" class="searchButton">
                           <i class="fa fa-search"></i>
                         </button>
+                        <img src="./reload.png" />
                       </div>
                     </div>
-                    <img src="./reload.png">
                   </div>
                 </div>
                 <div class="myTable">
@@ -130,6 +126,7 @@
                     <div class="biri">Network</div>
                     <div class="satu">Name</div>
                     <div class="nya">Group</div>
+                    <div class="mukaaga">Group</div>
                     <div class="tano">Action</div>
                   </div>
                   <div class="tableChild">
@@ -137,12 +134,11 @@
                     <div class="biri"></div>
                     <div class="satu"></div>
                     <div class="nya"></div>
+                    <div class="mukaaga">Group</div>
                     <div class="tano">
-                      <i
-                        class="fa fa-pencil-square-o write"
-                        aria-hidden="true"
-                      ></i>
-                      <i class="fa fa-trash-o trashy" aria-hidden="true"></i>
+                      <img src="./addressa.png" height="20rem" width="20rem">
+                      <img src="./download.png" height="20rem" width="20rem">
+                      <img class="fa fa-trash-o trashy" aria-hidden="true"></img>
                     </div>
                   </div>
                 </div>
