@@ -485,3 +485,20 @@ textarea {
   height: 2.26rem;
   padding-left: 2rem;
 }
+
+.tablerowtop td{
+  border: 1px solid #f1f1f1;
+  width: 20%;
+}
+
+.tablerowboot{
+  border: 1px solid #f1f1f1;
+}
+
+.bby-Table{
+  border-collapse: collapse;
+}
+
+.fulu{
+  height: 100%;
+}
