@@ -36,7 +36,11 @@
         <div class="main-outer">
           <div class="header">
             <div class="card">
-              <div class="card-top">Contacts</div>
+              <div class="card-top">Schedules</div>
+              <div class="card-down rightAlign">1</div>
+            </div>
+            <div class="card">
+              <div class="card-top">Sender IDs</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
@@ -44,22 +48,18 @@
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Networks</div>
+              <div class="card-top">Active Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
             <div class="card">
-              <div class="card-top">Available Credit</div>
-              <div class="card-down rightAlign">1</div>
-            </div>
-            <div class="card">
-              <div class="card-top">Available Sms</div>
+              <div class="card-top">Inactive Messages</div>
               <div class="card-down rightAlign">1</div>
             </div>
           </div>
           <div class="main-inner">
             <div class="sidebar">
               <div class="sidebar-item marg"><a href="index.html"> SMS</a></div>
-              <div class="sidebar-item active">
+              <div class="sidebar-item marg">
                 <a href="contact.html">Contact Management</a>
               </div>
               <div class="sidebar-item marg">
@@ -68,7 +68,7 @@
               <div class="sidebar-item marg">
                 <a href="inbox.html">Inbox</a>
               </div>
-              <div class="sidebar-item marg">
+              <div class="sidebar-item active">
                 <a href="scheduledmsgs.html">Scheduled Messages</a>
               </div>
               <div class="sidebar-item marg">
@@ -119,11 +119,7 @@
                         <button type="submit" class="searchButton">
                           <i class="fa fa-search"></i>
                         </button>
-                        <!-- <i class="fa fa-refresh reload" aria-hidden="true"></i> -->
-                        <!-- <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>
-                        <i class="fa fa-trash-o trashy" aria-hidden="true"></i>
-                        <i class="fa fa-refresh" aria-hidden="true"></i> -->
+                        <img src="./reload.png" />
                       </div>
                     </div>
                   </div>
@@ -133,10 +129,13 @@
                 </div>
                 <div class="myTable">
                   <div class="tableHead">
-                    <div class="emu">Phone Number</div>
-                    <div class="biri">Network</div>
-                    <div class="satu">Name</div>
-                    <div class="nya">Group</div>
+                    <div class="emu">Message</div>
+                    <div class="biri">Sender ID</div>
+                    <div class="satu">Groups</div>
+                    <div class="nya">Recepients</div>
+                    <div class="satu">Period</div>
+                    <div class="satu">Time</div>
+                    <div class="satu">Status</div>
                     <div class="tano">Action</div>
                   </div>
                   <div class="tableChild">
@@ -144,6 +143,9 @@
                     <div class="biri"></div>
                     <div class="satu"></div>
                     <div class="nya"></div>
+                    <div class="satu"></div>
+                    <div class="satu"></div>
+                    <div class="satu"></div>
                     <div class="tano">
                       <i
                         class="fa fa-pencil-square-o write"
