@@ -337,6 +337,9 @@ textarea {
   display: table-cell;
   vertical-align: middle;
 }
+.tableChild {
+  background: #d0cece;
+}
 .rem-row {
   display: grid;
   grid-auto-flow: row;
@@ -353,6 +356,7 @@ textarea {
 
 .write {
   color: #000;
+  height: 2rem;
 }
 
 .reload{
@@ -404,6 +408,7 @@ textarea {
 
 .uza{
   color: green;
+  height: 2rem;
 }
 
 .viewContacts button{
